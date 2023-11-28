@@ -1,0 +1,100 @@
+.button2 {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.button2:hover {
+    background: white;
+    cursor: pointer;
+    color: #FCA61F;
+    border: 1px solid #FCA61F;
+}
+.works {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
+
+}
+
+.w-right {
+    position: relative;
+}
+
+.w-mainCircle {
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    top: 2rem;
+    background: white;
+}
+.w-mainCircle>*{
+    position: absolute;
+}
+.w-mainCircle> :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+
+.w-mainCircle> :nth-child(2) {
+    top: 6rem;
+    left: -3.5rem;
+}
+
+.w-mainCircle> :nth-child(3) {
+    top: 6rem;
+    left: 6rem;
+}
+
+.w-mainCircle> :nth-child(4) {
+    top: 15rem;
+    left: 6rem;
+}
+.w-mainCircle> :nth-child(5) {
+    top: 6rem;
+    left: 15rem;
+}
+.w-seccircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+box-shadow:  -79px 51px 60px rgba(0, 0, 0, 0.08);
+background: white;
+}
+.w-seccircle > img{
+transform: scale(0.6);
+}
+.w-backcircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.bluecircle{
+    background: #1949B8;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowcircle{
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+}

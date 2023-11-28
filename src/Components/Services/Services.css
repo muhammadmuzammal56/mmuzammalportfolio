@@ -1,0 +1,82 @@
+.button {
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgb(251, 161, 40, 0.42);
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background: white;
+    cursor: pointer;
+    color: #FCA61F;
+    border: 1px solid #FCA61F;
+}
+
+.blurr {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: 100%;
+    left: -53%;
+    filter: blur(72px);
+
+}
+
+.Services {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 6rem;
+    margin-bottom: 15rem;
+}
+
+.awesome {
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome> :nth-child(1) {
+    color: #242D49;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome> :nth-child(2) {
+    color: #FCA61F;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome> :nth-child(3) {
+    color: #788097;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+.blurr-2{
+    left: 12rem;
+    top: 8rem;
+}
+@media screen and (max-width :'480px') {
+    .Services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
